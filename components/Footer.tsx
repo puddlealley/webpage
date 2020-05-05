@@ -1,13 +1,12 @@
 import React from 'react'
 import { NextPage } from 'next';
-import Link from 'next/link';
 import { FaAngleDoubleUp } from 'react-icons/fa'
 
 const Footer: NextPage = () => {
     return (
-        <section className="flex-row md:pl-64 py-6">
+        <section className="flex-row md:pl-32 py-6">
             <FaAngleDoubleUp className="inline" />
-            <Link href={"/"}><a>Back to top</a></Link>
+            <a href={"javascript:void(0)"} onClick={() => scrollToTop()}>Back to top</a>
             <style jsx>{`
                 section { 
                     background-color: #04335E;
@@ -23,6 +22,10 @@ const Footer: NextPage = () => {
             </style>
         </section>
     )
+}
+
+function scrollToTop() {
+    window.scroll({ top: 0, left: 0, behavior: 'smooth' });
 }
 
 export default Footer;

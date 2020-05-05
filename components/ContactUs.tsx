@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContactUs: NextPage<{}> = () => {
     return (
-        <section className="background pl-24 md:pr-24 py-10">
+        <section id={"contact"} className="background pl-24 md:pr-24 py-10">
             <h1 className="text-4xl font-bold mb-8">Get in touch</h1>
             <div className="flex flex-col mb-16">
                 <label htmlFor="name" className="block mb-2 font-bold">Your name</label>

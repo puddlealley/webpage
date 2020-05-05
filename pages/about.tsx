@@ -1,13 +1,12 @@
 import Layout from '../components/Layout'
-import TopSection from '../components/TopSection'
-import BottomSection from '../components/BottomSection'
-import Header from '../components/Header'
+import React from 'react'
+import AboutTopSection from '../components/AboutTopSection'
+import AboutBottomSection from '../components/AboutBottomSection'
 
 // @ts-ignore
 export default () => (
     <Layout>
-        <Header />
-        <TopSection />
-        <BottomSection />
+        <AboutTopSection />
+        <AboutBottomSection />
     </Layout>
 )

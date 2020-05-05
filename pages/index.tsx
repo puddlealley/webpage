@@ -10,6 +10,5 @@ export default () => (
         <TopSection />
         <BottomSection />
         <OurClients />
-        <ContactUs />
     </Layout>
 )
