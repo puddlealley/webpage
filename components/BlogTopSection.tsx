@@ -3,11 +3,10 @@ import { Post } from '../interfaces/post'
 import Link from 'next/link'
 
 type Props = {
-    post: Post,
-    posts: Post[]
+    post: Post
 }
 
-const BlogTopSection: React.FunctionComponent<Props> = ({ post, posts }) => (
+const BlogTopSection: React.FunctionComponent<Props> = ({ post}) => (
     <section className="flex-row container background pl-24 md:pr-24 py-10">
         <h1 className="text-4xl mb-4 w-1/2 font-bold">{ post.title }</h1>
         <p className="mb-4 w-1/2">{ post.content }</p>

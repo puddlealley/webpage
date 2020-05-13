@@ -6,7 +6,7 @@ const Footer: NextPage = () => {
     return (
         <section className="flex-row md:pl-32 py-6">
             <FaAngleDoubleUp className="inline" />
-            <a href={"javascript:void(0)"} onClick={() => scrollToTop()}>Back to top</a>
+            <a onClick={() => scrollToTop()}>Back to top</a>
             <style jsx>{`
                 section { 
                     background-color: #04335E;
@@ -14,6 +14,7 @@ const Footer: NextPage = () => {
                 }
                 a {
                     color: white;
+                    cursor: pointer;
                 }
                 .inline {
                     display: inline;
