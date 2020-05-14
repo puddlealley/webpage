@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 
 const OurClients: NextPage<{}> = () => {
     return (
-        <section className="flex-row pl-24 md:pr-24 py-10">
+        <section className="flex-row white-section">
             <h1 className="text-4xl font-bold text-center">Our clients</h1>
             <p className="text-center">If you're curious about what we do, here are a few logos of some of the clients and projects I have worked on in the past.</p>
             <div className="flex my-10 justify-between">
@@ -15,9 +15,6 @@ const OurClients: NextPage<{}> = () => {
             <p className="text-center">I've helped companies develop and test next-gen digital signal processors and built software to help vehicle manufactures track Quality Assurance. I've also ran and maintained several social networks. (Popjam and Curated). </p>
 
             <style jsx>{`
-                section {
-                    color: #04335E;
-                }
                 img {
                     height: auto;
                     max-width: 100%;
