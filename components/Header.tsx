@@ -7,21 +7,18 @@ const Header: NextPage = () => {
             <Link href={"/"}>
                 <img className={"pl-24"} src="/images/PuddleAlley_Logo.png" alt="Puddle Alley logo"/>
             </Link>
-            <div className="c pt-4">
+            <div className="ml-auto pt-4">
                 <Link href="/about"><a className={"font-bold"}>About</a></Link>
                 <Link href="/blog"><a className={"font-bold ml-16"}>Blog</a></Link>
                 <Link href="#contact"><a className={"font-bold ml-16"}>Contact</a></Link>
             </div>
 
             <style jsx>{`
-                .clearBoth {
-                    clear:both;
-                }
-                .c {
-                    margin-left: auto;
-                }
                 a {
                     color: #04335E;
+                }
+                img {
+                    cursor: pointer;
                 }
             `}
             </style>
