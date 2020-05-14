@@ -4,6 +4,12 @@
     color: #04335E;
 }
 
+.bottom-section {
+    @apply  pr-40 pl-24 py-10;
+    background-color: #03325D;
+    color: #F6FBF5;
+}
+
 button {
     background-color: #FC993E;
     color: #103650;
