@@ -7,6 +7,7 @@
 @import 'tailwindcss/utilities';
 
 @import '_site-wide.css';
+@import '_mobile.css';
 
 @font-face {
     font-family: 'introrustg-base2line';

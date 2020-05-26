@@ -7,7 +7,7 @@ type Props = {
 }
 
 const BlogTopSection: React.FunctionComponent<Props> = ({ post}) => (
-    <section className="flex-row background top-section">
+    <section className="flex-row background top-section md:pl-24 md:py-10">
         <h1 className="text-4xl mb-4 w-1/2 font-bold">{ post.title }</h1>
         <p className="mb-4 w-1/2">{ post.content }</p>
         <Link href={`/blog/${post.id}`}>
