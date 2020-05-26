@@ -3,12 +3,12 @@ import React from 'react'
 
 const ContactUs: NextPage<{}> = () => {
     return (
-        <section id="contact" className="background top-section md:pl-24 md:pr-24 py-10">
+        <section id="contact" className="background top-section md:pl-24 md:pr-24 md:py-10">
             <div className="md:hidden relative pb-2/3">
                 <img className="absolute top-0 h-full w-full object-cover" src="/images/street-puddle.png" alt="Puddle reflect street above"/>
             </div>
             <h1 className="text-4xl px-6 mb-4 font-bold text-center md:text-left">Get in touch</h1>
-            <div className="flex-col px-6 mb-16">
+            <div className="flex-col px-6 pb-16">
                 <label htmlFor="name" className="block mb-2 font-bold">Your name</label>
                 <input id="name" type="text" className="block w-full md:w-2/5 mb-10 rounded text-2xl"/>
                 <label htmlFor="message" className="block mb-2 font-bold">Message</label>

@@ -18,7 +18,6 @@ const BottomSection: NextPage<{}> = () => {
                 .background {
                     background-image: none;
                 }
-                
                 @media (min-width: 640px) {
                       .background {
                         background-image: url(/images/puddle.png);
