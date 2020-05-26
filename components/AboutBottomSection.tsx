@@ -3,7 +3,7 @@ import React from 'react'
 
 const AboutBottomSection: NextPage<{}> = () => {
     return (
-        <section className="flex-row background bottom-section">
+        <section className="flex-row background bottom-section md:pr-40 md:pl-24 pb-10 md:py-16">
             <div className="md:hidden relative pb-2/3 mb-5">
                 <img className="absolute top-0 h-full w-full object-cover" src="/images/coder.png" alt="Someone coding"/>
             </div>
