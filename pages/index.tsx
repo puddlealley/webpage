@@ -1,11 +1,14 @@
 import Layout from '../components/Layout'
+import TopSection from '../components/TopSection'
+import BottomSection from '../components/BottomSection'
+import OurClients from '../components/OurClients'
+import ContactUs from '../components/ContactUs'
 
 // @ts-ignore
 export default () => (
     <Layout>
-        <div className="container flex flex-col items-center  ">
-            <h1 className="flex-auto  text-6xl  text-center" style={{fontFamily: "introrustg-base2line"}}>Puddle Alley</h1>
-            <img src="/splash.svg" className="w-64 mt-4"/>
-        </div>
+        <TopSection />
+        <BottomSection />
+        <OurClients />
     </Layout>
 )
