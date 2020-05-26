@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const TopSection: NextPage<{}> = () => {
         return (
-            <section className="flex-row background top-section md:pl-24 md:py-10">
+            <section className="flex-row background top-section md:pl-24 md:py-10 pb-10">
                 <div className="md:hidden relative pb-2/3">
                     <img className="absolute top-0 h-full w-full object-cover" src="/images/gummy-app-development.png" alt="App development"/>
                 </div>
@@ -25,8 +25,6 @@ const TopSection: NextPage<{}> = () => {
                         background-repeat: no-repeat;
                     }
                 }
-                
-                
             `}
                 </style>
             </section>

@@ -4,7 +4,6 @@
 }
 
 .bottom-section {
-    @apply pr-40 pl-24 py-10;
     background-color: #03325D;
     color: #F6FBF5;
 }

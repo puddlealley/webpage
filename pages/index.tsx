@@ -8,7 +8,7 @@ import ContactUs from '../components/ContactUs'
 export default () => (
     <Layout>
         <TopSection />
-        {/*<BottomSection />*/}
+        <BottomSection />
         {/*<OurClients />*/}
     </Layout>
 )
