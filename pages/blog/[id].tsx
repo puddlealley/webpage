@@ -11,7 +11,7 @@ type Props = {
 // @ts-ignore
 export default (blog: Props) => (
     <Layout>
-        <section className="flex-row container background pl-24 md:pr-24 py-10">
+        <section className="flex-row container background px-5 md:px-24 py-10">
             <h1 className="text-4xl mb-4 text-center font-bold">{ blog.post.title }</h1>
             <p>{ blog.post.content }</p>
         </section>
