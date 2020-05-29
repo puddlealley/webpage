@@ -6,7 +6,7 @@ const Header: NextPage = () => {
     return (
         <section className="flex md:pr-64">
             <Link href={"/"}>
-                <img className="pl-3 md:pl-24" src="/images/PuddleAlley_Logo.png" alt="Puddle Alley logo"/>
+                <img className="pl-3 md:pl-24" tabIndex={0} src="/images/PuddleAlley_Logo.png" alt="Puddle Alley logo"/>
             </Link>
             <div className="hidden md:block ml-auto pt-4">
                 <Link href="/about"><a className="font-bold">About</a></Link>

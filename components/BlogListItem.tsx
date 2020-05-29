@@ -7,10 +7,12 @@ type Props = {
 }
 
 const BlogListItem: React.FunctionComponent<Props> = ({ post }) => (
-    <div id={post.id} className="md:w-1/3 inline-block p-4">
+    <div id={post.id} className="md:w-1/3 inline-block md:px-24 md:py-10 pb-10">
         <img className={"block mb-4"} src={`/images/${post.image}.png`} alt="article image"/>
         <Link href={`/blog/${post.id}`}>
-            <p className="text-center font-bold">{ post.title }</p>
+            <div className="text-center">
+                <a id={`link-${post.id}`} className="font-bold">{ post.title }</a>
+            </div>
         </Link>
     </div>
 )
