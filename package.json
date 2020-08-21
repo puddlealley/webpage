@@ -20,7 +20,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.10.0",
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^1.7.3"
   },
   "devDependencies": {
     "@types/node": "^13.5.0",
