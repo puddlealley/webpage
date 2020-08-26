@@ -112,3 +112,5 @@ dist
 # IntelliJ files
 .idea/
 *.iml
+
+sendgrid.env
