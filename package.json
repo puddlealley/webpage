@@ -13,7 +13,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "@sendgrid/mail": "^7.1.1",
     "@types/react-burger-menu": "^2.6.1",
     "autoprefixer": "^9.7.4",
