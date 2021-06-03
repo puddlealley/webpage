@@ -951,10 +951,10 @@
     "@sendgrid/client" "^7.1.1"
     "@sendgrid/helpers" "^7.0.1"
 
-"@types/node@^13.5.0":
-  version "13.5.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.0.tgz#4e498dbf355795a611a87ae5ef811a8660d42662"
-  integrity sha512-Onhn+z72D2O2Pb2ql2xukJ55rglumsVo1H6Fmyi8mlU9SvKdBk/pUSUAiBY/d9bAOF7VVWajX3sths/+g6ZiAQ==
+"@types/node@^15.9.0":
+  version "15.9.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.9.0.tgz#0b7f6c33ca5618fe329a9d832b478b4964d325a8"
+  integrity sha512-AR1Vq1Ei1GaA5FjKL5PBqblTZsL5M+monvGSZwe6sSIdGiuu7Xr/pNwWJY+0ZQuN8AapD/XMB5IzBAyYRFbocA==
 
 "@types/prop-types@*":
   version "15.7.3"
