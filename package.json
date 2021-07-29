@@ -27,7 +27,7 @@
     "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
-    "@types/node": "^13.5.0",
+    "@types/node": "^16.4.6",
     "@types/react": "16.9.34",
     "typescript": "^3.7.5"
   }
