@@ -18,7 +18,6 @@ const Header: NextPage = () => {
                 <Menu right >
                     <a id="home" className="menu-item mb-10 font-bold text-3xl" href="/">Home</a>
                     <a id="about" className="menu-item mb-10 font-bold text-3xl" href="/about">About</a>
-                    <a id="about" className="menu-item mb-10 font-bold text-3xl" href="/blog">Blog</a>
                     <a id="contact" className="menu-item font-bold text-3xl" href="/contact">Contact</a>
                 </Menu>
             </div>
